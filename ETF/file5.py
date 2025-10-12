@@ -337,20 +337,10 @@ with tab2:
                         "Could not generate signals. Check if yfinance data is available for the selected stocks."
                     )
                 else:
-                    # Styling function
-                    def highlight_signal(val):
-                        if "BUY" in val:
-                            color = "rgb(200, 230, 201)"  # Light Green
-                        elif "SELL" in val:
-                            color = "rgb(255, 205, 210)"  # Light Red
-                        else:
-                            color = "rgb(240, 240, 240)"  # Light Gray
-                        return f"background-color: {color}"
-
                     st.dataframe(
                         stock_df.style.format(
                             {"1M": "{:.2%}", "3M": "{:.2%}", "YTD": "{:.2%}", "Vol (20D, ann)": "{:.2f}"}
-                        ).map(highlight_signal, subset=["Signal"]),
+                        ),
                         use_container_width=True,
                     )
 
