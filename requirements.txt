@@ -1,0 +1,9 @@
+numpy
+pandas
+matplotlib
+plotly-express
+pandas_datareader
+yfinance
+transformers 
+torch 
+streamlit

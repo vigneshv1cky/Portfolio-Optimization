@@ -1,0 +1,8 @@
+Markowitz (Short-Enabled) — Summary
+Tickers: SPY, QQQ, TLT, GLD, IWM, EFA
+Date range: 2018-01-01 → 2025-10-08
+Risk-free (annual): 3.00%
+Bounds per weight: [-1.0, 2.0]
+Net exposure sum(w): 1.0
+
+GMV and MSR and Target weights are in weights_summary.csv

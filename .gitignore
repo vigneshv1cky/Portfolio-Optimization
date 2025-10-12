@@ -1,0 +1,87 @@
+# ========================================
+# 🐍 Python
+# ========================================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg
+*.egg-info/
+.eggs/
+dist/
+build/
+pip-wheel-metadata/
+wheels/
+*.manifest
+*.spec
+
+# ========================================
+# 🧠 Virtual Environments
+# ========================================
+venv/
+.env/
+env/
+.venv/
+*.env
+
+# ========================================
+# 📊 Jupyter / Data
+# ========================================
+.ipynb_checkpoints
+*.ipynb
+*.csv
+*.xlsx
+*.xls
+*.parquet
+*.feather
+*.h5
+*.db
+*.sqlite
+*.sqlite3
+*.json
+*.pkl
+*.sav
+*.zip
+*.gz
+*.log
+
+# ========================================
+# 📦 Streamlit / Cache
+# ========================================
+.streamlit/
+.cache/
+**/__pycache__/
+**/.ipynb_checkpoints/
+**/.pytest_cache/
+
+# ========================================
+# 🧰 VSCode / IDEs
+# ========================================
+.vscode/
+.idea/
+*.code-workspace
+
+# ========================================
+# 🧠 macOS system files
+# ========================================
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# ========================================
+# 🔒 Secrets
+# ========================================
+*.key
+*.pem
+*.crt
+secrets.json
+config.json
+credentials.json
+token.json
