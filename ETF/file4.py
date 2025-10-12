@@ -231,11 +231,11 @@ with tab2:
         # Color-code by Signal
         def highlight_signal(val):
             if "BUY" in val:
-                color = "#C8E6C9"  # light green
+                color = "#487A4A"  # light green
             elif "SELL" in val:
-                color = "#FFCDD2"  # light red
+                color = "#6C393E"  # light red
             else:
-                color = "#F5F5F5"  # gray
+                color = "#C2BFBF"  # gray
             return f"background-color: {color}"
 
         st.dataframe(
