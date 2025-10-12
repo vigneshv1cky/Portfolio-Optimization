@@ -231,9 +231,9 @@ with tab2:
         # Color-code by Signal
         def highlight_signal(val):
             if "BUY" in val:
-                color = "#487A4A"  # light green
+                color = "#175D1A"  # light green
             elif "SELL" in val:
-                color = "#6C393E"  # light red
+                color = "#851924"  # light red
             else:
                 color = "#C2BFBF"  # gray
             return f"background-color: {color}"
